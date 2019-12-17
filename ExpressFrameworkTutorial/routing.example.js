@@ -11,14 +11,16 @@
 
 var express = require('express');
 var app = express();
-app.route('/Node',get(function(req,res){
-    res.send("Tutorial on Node");
-}));
 
-app.route('/Angular',get(function(req,res)
-{
-    res.send("Tutorial on Angular");
-}));
+// define the about route
+app.get('/about', (function (req, res) {
+    res.send('About birds');
+}))
+  
+
+app.put('/user', function (req, res) {
+    res.send('Got a PUT request at /user')
+});
 
 app.get('/',(function(req,res){
     res.send('Welcome to Guru99 Tutorials');
