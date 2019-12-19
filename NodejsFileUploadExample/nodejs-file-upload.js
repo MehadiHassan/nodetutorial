@@ -1,3 +1,8 @@
+// You need to install http, fs and formidable by using the below command
+// npm install http
+// npm install fs
+// npm install formidable
+
 var http = require('http');
 var fs = require('fs');
 var formidable = require('formidable');
