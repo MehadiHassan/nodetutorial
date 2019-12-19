@@ -18,6 +18,9 @@
   "homepage": "https://github.com/MehadiHassan/nodetutorial#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
     "jade": "^1.11.0",
     "mongodb": "^3.4.0"
   }
